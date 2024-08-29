@@ -1,0 +1,61 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #ecf0f1;
+$text-color: #333;
+
+
+  
+h1{
+    text-align: center;
+}
+
+
+// Estilo para la tabla
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: $background-color;
+  color: $text-color;
+  text-align: center;
+  justify-content: center;
+  
+ 
+  
+  
+}
+
+
+thead {
+      padding: 12px 15px;
+      text-align: center;
+      font-weight: bold;
+      border-bottom: 2px solid $primary-color;
+      color: $text-color;
+     
+      
+     
+}
+  
+
+  // Cuerpo de la tabla
+tbody {
+
+    tr {
+      
+
+      &:hover {
+        background-color: $secondary-color;
+        color: white;
+      }
+
+      td {
+        padding: 15px 70px;
+        border-bottom: 1px solid $primary-color;
+      }
+    }
+
+}
+
+
+
